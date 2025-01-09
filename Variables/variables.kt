@@ -3,7 +3,7 @@
 // const val: Declara una constante de tiempo de compilación. El valor de la constante debe ser asignado en tiempo de compilación y no puede ser cambiado.
 // lateinit var: Declara una variable que no tiene un valor inicial. La variable debe ser inicializada antes de ser usada, de lo contrario, se lanzará una excepción.
 
-fun main(){
+fun mainVariables(){
   val nombre: String = "Juan" // constante/inmutable
   println("Hola: $nombre")
 
@@ -18,5 +18,17 @@ fun main(){
   val nombre1 = "Juan"
   var edad1 = 29
   println("Nombre: $nombre1, Edad: $edad1")
+
+  val altura: Double = 1.75
+  val peso = 70.5f
+  val esEstudiante = true
+  val On = true
+  val inicial = 'a'
+
+  println(altura)
+  println(peso)
+  println(esEstudiante)
+  println(On)
+  println(inicial)
 
 }
