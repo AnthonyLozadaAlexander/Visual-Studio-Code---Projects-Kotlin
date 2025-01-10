@@ -10,6 +10,7 @@ fun main(){
   num = input.nextInt()
 
   for (i in 1.. num){
+    
     println("$suma + $i")
     suma = suma + i
     println("= $suma")
