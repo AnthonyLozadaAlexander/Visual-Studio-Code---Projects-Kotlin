@@ -1,9 +1,9 @@
 import java.util.Scanner
 
-fun mainWhen(){
+fun main(){
   //Switch para los dias de la semana
   var dia: Int
-  val input = Scanner(System.`in`)
+  var input = Scanner(System.`in`)
   println("Ingrese un dia de la semana: [1,2,3,4,5,6,7]\n")
   dia = input.nextInt()
 
@@ -17,5 +17,4 @@ fun mainWhen(){
     7 -> println("Domingo")
     else -> println("Dia no valido")
   }
-
 }

@@ -1,4 +1,4 @@
-fun mainCondicionalIfElse() {
+fun main() {
     val numero = 15
 
     if (numero > 0) {
