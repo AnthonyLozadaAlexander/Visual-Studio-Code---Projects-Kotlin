@@ -15,5 +15,6 @@ fun main(){
       6 -> println("Bien")
       5 -> println("Aprobado")
       4 -> println("Suspenso")
+      else -> println("Error")
   }
 }
